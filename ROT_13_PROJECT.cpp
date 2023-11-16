@@ -19,9 +19,11 @@ int main(){
     int counter = 0;
     string string1;
     string string2 = "";
+    cout << "Enter Word to be encrypted: ";
     getline(cin, string1);
     
     while (counter < string1.length() ){
+    
         char letter;
         letter = string1.at(counter);
 
@@ -63,6 +65,45 @@ int main(){
         }
         else if (letter == 'M'){
             string2 += "Z";
+        }
+        else if (letter == 'N'){
+            string2 += "A";
+        }
+        else if (letter == 'O'){
+            string2 += "B";
+        }
+        else if (letter == 'P'){
+            string2 += "C";
+        }
+        else if (letter == 'Q'){
+            string2 += "D";
+        }
+        else if (letter == 'R'){
+            string2 += "E";
+        }
+        else if (letter == 'S'){
+            string2 += "F";
+        }
+        else if (letter == 'T'){
+            string2 += "G";
+        }
+        else if (letter == 'U'){
+            string2 += "H";
+        }
+        else if (letter == 'V'){
+            string2 += "I";
+        }
+        else if (letter == 'W'){
+            string2 += "J";
+        }
+        else if (letter == 'X'){
+            string2 += "K";
+        }
+        else if (letter == 'Y'){
+            string2 += "L";
+        }
+        else if (letter == 'Z'){
+            string2 += "M";
         }
         else {
             string2 += letter;
